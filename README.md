@@ -6,11 +6,13 @@
   </a>
 </p>
 
+![project-screen](https://github.com/saulloalmeida/nft-preview-card-component/blob/master/screen.png?raw=true)
+
 > NFT preview card component challenge frontendmentor.io
 
-### 🏠 [Homepage](.)
+### 🏠 [Homepage](https://nft-preview-card-component-blond-eight.vercel.app/)
 
-### ✨ [Demo](.)
+### ✨ [Demo](https://nft-preview-card-component-blond-eight.vercel.app/)
 
 ## Install
 
