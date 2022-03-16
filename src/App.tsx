@@ -19,7 +19,13 @@ const IconEthereum = () => {
   );
 };
 const ImageAvatar = () => {
-  return <img src="../assets/images/avatar.png" alt="" />;
+  return (
+    <img
+      className="w-16 h-16 border border-white rounded-full"
+      src="../assets/images/avatar.jpg"
+      alt=""
+    />
+  );
 };
 
 function App() {
@@ -54,18 +60,22 @@ function App() {
         >
           Our Equilibrium collection promotes balance and calm.
         </span>
-        <div>
-          <span className={`text-cyan-hsl`}>
+        <div className={`flex flex-row justify-between w-full`}>
+          <div className={`flex flex-row space-x-2`}>
             <IconEthereum />
-            0.041 ETH{" "}
-          </span>
-          <span className={`text-soft-blue`}>
-            <IconTimer />3 days left
-          </span>
+            <span className={`text-cyan-hsl`}>0.041 ETH </span>
+          </div>
+          <div className={`flex flex-row space-x-2`}>
+            <IconTimer />
+            <span className={`text-soft-blue`}> 3 days left</span>
+          </div>
         </div>
-        <div className="text-xs pt-3 text-soft-blue text-center">
+        <hr className="w-full m-3" />
+        <div className="flex flex-row items-center pt-3 text-soft-blue">
           <ImageAvatar />
-          Creation of Jules Wyvern Saullo Almeida
+          <p className="text-soft-blue text-md font-outfit flex-wrap text-center ml-10">
+            Creation of <span className="text-white-hsl"> Saullo Almeida</span>
+          </p>
         </div>
       </div>
     </div>
